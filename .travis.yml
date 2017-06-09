@@ -52,9 +52,9 @@ env:
 
 pkg_deps_prereqs: &pkg_deps_prereqs
 ### Manual edit: We build our own forks
-#    - libzmq3-dev
-#    - libczmq-dev
-#    - libmlm-dev
+    - libzmq3-dev
+    - libczmq-dev
+    - libmlm-dev
 #    - libfty-proto-dev
 #    - libcidr0-dev
 #    - cxxtools-dev
